@@ -1,0 +1,12 @@
+[
+  {"id": 1, "description": "Cas standard - Grippe probable", "symptomes": ["fievre", "toux", "fatigue"], "expected": "Grippe"},
+  {"id": 2, "description": "Cas standard - Allergie", "symptomes": ["eternuement", "yeux_rouges"], "expected": "Allergie"},
+  {"id": 3, "description": "Cas standard - Infection bacterienne", "symptomes": ["fievre", "mal_de_gorge"], "expected": "Infection"},
+  {"id": 4, "description": "Cas standard - Fatigue simple", "symptomes": ["fatigue"], "expected": "Repos_Necessaire"},
+  {"id": 5, "description": "Cas standard - Rhume classique", "symptomes": ["toux", "eternuement"], "expected": "Rhume"},
+  {"id": 6, "description": "Cas standard - Grippe forte", "symptomes": ["fievre", "toux", "courbatures"], "expected": "Grippe"},
+  {"id": 7, "description": "Cas standard - Angine", "symptomes": ["fievre", "mal_de_gorge", "fatigue"], "expected": "Infection"},
+  {"id": 8, "description": "Cas limite 1 - Donnees incompletes (symptome isole)", "symptomes": ["fievre"], "expected": "Inconnu_Incertitude"},
+  {"id": 9, "description": "Cas limite 2 - Contradiction (combinaison antagoniste)", "symptomes": ["yeux_rouges", "courbatures", "eternuement", "fievre_elevee"], "expected": "Diagnostic_Complexe"},
+  {"id": 10, "description": "Cas limite 3 - Absence totale de symptome", "symptomes": [], "expected": "Aucune_Pathologie"}
+]
