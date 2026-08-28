@@ -73,7 +73,6 @@ Le système repose sur une architecture décisionnelle hybride à deux niveaux (
 
 Système de diagnostic et de décision hybride combinant un moteur de règles symbolique (chaînage avant) et un réseau bayésien naïf pour traiter l'incertitude et l'incomplétude.
 
-
 [ Formulaire Symptômes (app.py) ]
 │
 ▼
