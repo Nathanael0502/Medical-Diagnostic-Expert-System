@@ -22,13 +22,13 @@ symptoms_map = {
     "Courbatures": "courbatures"
 }
 
-# Menu Démo / Rôles avec Noms, Prénoms et Matricules
+# Menu Démo 
 st.sidebar.title(" Menu Démo / Rôles")
 role_selected = st.sidebar.radio(
     "Sélectionnez votre rôle pour la démo :",
     [
         "1. Formalisation et Ontologie — RATOVONJANAHARY Rojo Ny Ony Fitahiana (N°107I23)",
-        "2. Moteur Symbolique — FANOMEZANIORINA Miaro Ny Anjara (N°197I23)",
+        "2. Moteur Symbolique — FANOMEZANIRINA Miaro Ny Anjara (N°197I23)",
         "3. Moteur Probabiliste — RANDRIANJAFY Nathanaël (N°079I23)",
         "4. Intégrateur — RATSIMBA Vahatriniaina (N°104I23)",
         "5. Tests et Qualité — ANDRIAMAHERIMANANA Johnson Rolly (N°011I23)"
@@ -73,7 +73,7 @@ if role_selected.startswith("1."):
 
 elif role_selected.startswith("2."):
     st.header(" Rôle 2 : Moteur de Règles Symboliques")
-    st.subheader("Responsable : FANOMEZANIORINA Miaro Ny Anjara — N°197I23")
+    st.subheader("Responsable : FANOMEZANIRINA Miaro Ny Anjara — N°197I23")
     st.markdown("""
     * **Contributions :** Conception du moteur d'inférence, écriture des règles R1-R6, création de `src/rules_engine.py`.
     """)
